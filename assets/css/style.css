@@ -1,0 +1,87 @@
+.container{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap:10px;
+background-color: rgb(107, 107, 107);
+width: 80%;
+margin:-1% auto auto auto;
+font-family:Arial,Helvetica,sans-serif;
+color:rgb(255, 255, 255); 
+
+width:800px;
+
+}
+body{
+    background-color: cornflowerblue;
+} 
+h4{
+    color: rgb(255, 255, 255);
+   }
+.header {
+grid-column: 1/4;
+width:100%;
+height:486px;
+background-image:url(../../img/avioncetsea.jpg);
+background-position:center;
+background-size: cover;
+}
+
+.menu{
+grid-column: 1/4;
+
+display: block;
+}
+
+.menu li {
+align-items: center;
+float:left;
+display: block;
+color: antiquewhite;
+text-align: center;
+padding: 0px 20px 20px 0px;
+text-decoration:none;
+}
+
+body{
+    background-color: cornflowerblue;;
+}
+
+.Sinopsis{
+grid-column: 1/4;
+padding: 0px 100px 0px 100px;
+}
+.Sinopsistxt{
+padding: -20px 0px 0px 0px;
+}
+footer{
+grid-column: 1/4;
+color: rgb(3, 3, 3);
+background-color: blanchedalmond;
+ 
+}
+.imagen1{
+    width: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.avion{
+    display: flex;
+    align-items: flex-start;
+}
+    
+.thumb{ 
+width: 200px;
+height: 200px;
+margin-left: 10px;
+}
+.fondox{
+    background-image: url(/img/tunnel_underground_abandoned_123561_3840x2160.jpg);
+    
+
+
+}
+
+.avion{
+    grid-row: 3;
+}
+
